@@ -15,7 +15,7 @@ install.packages("remotes")
 
 remotes::install_github("mhweber/NMC-Workshop-Data")
 
-library(NMC-Workshop-Data)
+library(NMCWorkshopData)
 ```
 
 ## Use
