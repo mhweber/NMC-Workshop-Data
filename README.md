@@ -21,5 +21,5 @@ library(NMC-Workshop-Data)
 ## Use
 
 ```{r}
-NMC-Workshop-Data::data(GreenBay_FoxRiver)
+data(GreenBay_FoxRiver)
 ```
