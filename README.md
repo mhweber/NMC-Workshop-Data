@@ -1,22 +1,22 @@
-# Rspatialworkshop
-## An R data package for the 2021 R user group spatial workshop
+# NMC-Workshop-Data
+## An R data package for the 2025 National Monitoring Conference "Creating Efficient and Reproducible Water Quality Workflows Using R" Workshop
 
-This package provides some example R datasets for demonstration purposes for the 2021 R spatial workshop. The ArcGIS REST services have been scraped and transformed to `sf` objects using the [esri2sf R package](https://github.com/yonghah/esri2sf):
+This package provides some example R datasets for demonstration purposes for the 2025 "Creating Efficient and Reproducible Water Quality Workflows Using R" workshop. 
 
 
 ## Installation
 You can install Rspatialworkshop from Github:
 ```
 library(devtools)
-install_github("mhweber/Rspatialworkshop")
-library(Rspatialworkshop)
+install_github("mhweber/NMC-Workshop-Data")
+library(NMC-Workshop-Data)
 ```
 
 ## Use
 ```
 library(sf)
 library(terra)
-data(package = "Rspatialworkshop")
+data(package = "NMC-Workshop-Data")
 data(bike_paths)
 data(parks)
 data(pnw)
