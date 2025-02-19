@@ -8,7 +8,7 @@ This package provides some example R datasets for demonstration purposes for the
 
 You can install NMC-Workshop-Data from Github:
 
-```{r}         
+```{r}
 if(!"remotes"%in%installed.packages()){
 install.packages("remotes")
 }
@@ -20,6 +20,6 @@ library(NMC-Workshop-Data)
 
 ## Use
 
-```{r}       
+```{r}
 NMC-Workshop-Data::data(GreenBay_FoxRiver)
 ```
